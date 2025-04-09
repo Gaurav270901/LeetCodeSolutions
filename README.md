@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0031-next-permutation) |
 | [0073-set-matrix-zeroes](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0118-pascals-triangle) |
 | [2724-convert-an-array-into-a-2d-array-with-conditions](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2724-convert-an-array-into-a-2d-array-with-conditions) |
@@ -38,4 +39,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0145-binary-tree-postorder-traversal) |
+## Two Pointers
+|  |
+| ------- |
+| [0031-next-permutation](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0031-next-permutation) |
 <!---LeetCode Topics End-->
