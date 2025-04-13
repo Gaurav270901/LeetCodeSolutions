@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [1013-fibonacci-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1013-fibonacci-number) |
 ## Stack
 |  |
 | ------- |
@@ -71,4 +72,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0125-valid-palindrome) |
+## Math
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1013-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
