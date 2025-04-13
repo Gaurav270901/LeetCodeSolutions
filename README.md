@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0031-next-permutation](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0075-sort-colors) |
+| [0125-valid-palindrome](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0125-valid-palindrome) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -66,4 +67,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0232-implement-queue-using-stacks) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
