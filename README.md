@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0189-rotate-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0283-move-zeroes) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2724-convert-an-array-into-a-2d-array-with-conditions](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2724-convert-an-array-into-a-2d-array-with-conditions) |
 ## Hash Table
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0283-move-zeroes) |
 ## Divide and Conquer
 |  |
 | ------- |
