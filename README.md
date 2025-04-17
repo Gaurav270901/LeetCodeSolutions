@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0031-next-permutation) |
 | [0053-maximum-subarray](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0053-maximum-subarray) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0073-set-matrix-zeroes) |
 | [0268-missing-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0560-subarray-sum-equals-k) |
