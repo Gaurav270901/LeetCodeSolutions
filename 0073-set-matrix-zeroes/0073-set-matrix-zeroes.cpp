@@ -1,5 +1,5 @@
 #include<climits>
-class Solution {
+class Solution {   
 public:
     void setZeroes(vector<vector<int>>& matrix) {
 
@@ -38,8 +38,6 @@ public:
             for(int i = 0 ; i < matrix.size();i++)
                 matrix[i][0]=0;
         }
-
-
         
     }
 };
