@@ -21,6 +21,7 @@ public:
 
                     if (sum == target) {
                         result.push_back({nums[i], nums[j], nums[left], nums[right]});
+                        //after finding ans increament left and decreament right
                         left++;
                         right--;
 
