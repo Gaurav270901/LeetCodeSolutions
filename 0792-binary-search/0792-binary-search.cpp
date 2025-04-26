@@ -1,6 +1,7 @@
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
+        //binary search
         int n = nums.size()-1 ; 
         int low = 0 ; 
         int high = n ; 
