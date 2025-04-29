@@ -7,7 +7,7 @@ public:
             if(nums[mid]==target) return mid ; 
             
             if (nums[low] <= nums[mid]) {
-                if (nums[low] <= target && target <= nums[mid]) {
+                if (nums[low] <= target && target < nums[mid]) {
                     //element exists:
                     high = mid - 1;
                 }
