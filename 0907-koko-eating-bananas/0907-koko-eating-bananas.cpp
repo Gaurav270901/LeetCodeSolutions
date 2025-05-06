@@ -14,8 +14,8 @@ public:
         while(low <= high ){
             int mid = (low+high)/2 ;
             double cnt = 0 ;
-            for(int i = 0 ; i < piles.size() ; i++){
-                cnt += ceil((double)piles[i]/(double)mid);
+            for(int pile : piles){
+                cnt += ceil((double)pile/(double)mid);
             }
             if(cnt<=h){
                 ans = min(ans , mid);
