@@ -9,9 +9,9 @@ public:
         if(h == piles.size()) return maxElement ;
         int low = 1 , high = maxElement ,ans = INT_MAX ,totalCount = 0;
         while(low <= high ){
-            double mid = (low+high)/2 , cnt = 0 ;
+            long long mid = (low+high)/2 , cnt = 0 ;
             for(int pile : piles){
-                cnt += ceil((double)pile/(double)mid);
+                cnt += pile/mid + (pile % mid ? 1 : 0);
             }
             if(cnt<=h){
                 ans = mid , high = mid-1 ; 
