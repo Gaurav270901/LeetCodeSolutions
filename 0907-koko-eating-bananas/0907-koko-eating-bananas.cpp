@@ -6,6 +6,7 @@ class Solution {
 public:
     int minEatingSpeed(vector<int>& piles, int h) {
         int maxElement = *max_element(piles.begin() , piles.end());
+        if(h == piles.size()) return maxElement ;
         int low = 1 , high = maxElement ;
         int ans = INT_MAX;
         int totalCount = 0 ;
