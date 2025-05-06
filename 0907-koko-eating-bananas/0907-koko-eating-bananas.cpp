@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <cmath>
 class Solution {
 public:
     int minEatingSpeed(vector<int>& piles, int h) {
