@@ -18,8 +18,7 @@ public:
                 cnt += ceil((double)pile/(double)mid);
             }
             if(cnt<=h){
-                ans = mid ; 
-                high = mid-1 ;
+                ans = mid , high = mid-1 ; 
             }
             else low = mid+1 ;
         }
