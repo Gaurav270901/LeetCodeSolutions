@@ -1,5 +1,9 @@
 class Solution {
 public:
+//find the first and last day of blomming flower 
+//use binary search and between these range
+//travers mid and check if consecutive flowers are blooming at mid day or not and if then check if ther are equat to k and yes then one bouquet will form 
+//we need to find minimum days so for that if we get any ans as mid the we will check for value less than mikd
     bool isBouquetValid(vector<int>& bloomDay, int m, int k ,int day){
         int flower = 0 ; 
         int bouquet = 0 ; 
