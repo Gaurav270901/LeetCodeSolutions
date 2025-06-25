@@ -2,7 +2,7 @@
 
 <p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
 
-<p>You can return the answer in any order.</p>
+<p>You can return the answer in any order.</p> 
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -13,7 +13,7 @@
 <strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
 </pre>
 
-<p><strong class="example">Example 2:</strong></p>
+<p><strong class="example">Example 2 :</strong></p>
 
 <pre>
 <strong>Input:</strong> nums = [3,2,4], target = 6
