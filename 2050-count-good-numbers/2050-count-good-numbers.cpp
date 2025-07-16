@@ -2,21 +2,18 @@ class Solution {
 public:
 
     const long long MOD = 1000000007;
-
     long long modPow(long long base, long long exp) {
-        long long result = 1;
-        base %= MOD;
+        if (exp == 0) return 1;
 
-        while (exp > 0) {
-            if (exp % 2 == 1) {
-                result = (result * base) % MOD;
-            }
-            base = (base * base) % MOD;
-            exp /= 2;
+        long long half = modPow(base, exp / 2);
+        long long halfSquared = (half * half) % MOD;
+
+        if (exp % 2 == 0) {
+            return halfSquared;
+        } else {
+            return (base % MOD * halfSquared) % MOD;
         }
-        return result;
     }
-
     int countGoodNumbers(long long n) {
         long long evenCount = (n + 1) / 2;
         long long oddCount = n / 2;
