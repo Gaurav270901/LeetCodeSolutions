@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0118-pascals-triangle) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0014-longest-common-prefix) |
+| [0022-generate-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0022-generate-parentheses) |
 | [0125-valid-palindrome](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0151-reverse-words-in-a-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
@@ -282,4 +284,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
