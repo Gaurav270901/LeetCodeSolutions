@@ -2,17 +2,18 @@ class Solution {
 public: 
 
     void backtrack(vector<int>& candidates , vector<int> &current , int currentSum , vector<vector<int>>& ans , int target , int index , int size){
-       
+       //
             if(currentSum == target){
                 ans.push_back(current);
                 return ;
             }
             
         if(currentSum > target || index == size) return ;
-
+//first we will include current element in our addition and then take that element again in repeat call as seen in backtrack we are sentting the same index
         current.push_back(candidates[index]);
         backtrack(candidates,current,currentSum + candidates[index],ans , target,index , size);
 
+//now we will exclude that element from combination and take next index
         current.pop_back();
         backtrack(candidates , current , currentSum , ans , target , index+1 , size);
     }
