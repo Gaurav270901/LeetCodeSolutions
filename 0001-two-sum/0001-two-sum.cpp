@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int , int > map ; //use map to store all elements and then iterate array and check if different between current element and target is present in map or not , if present then add those index in ans and return
+        unordered_map<int , int > map ; 
         vector<int> ans ; 
 
         for(int i = 0 ; i < nums.size() ; i++){
