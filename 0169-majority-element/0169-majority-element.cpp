@@ -1,9 +1,9 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        int maxCount = 0 , majorElement ;
+        int maxCount = 0 , majorElement , n = nums.size() ;
 
-        for(int i = 0 ; i < nums.size() ; i++ )
+        for(int i = 0 ; i < n ; i++ )
         {
             if(maxCount == 0 ) majorElement = nums[i];
 
