@@ -1,8 +1,8 @@
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& arr) {
+        if(arr.size()==1) return arr;
         int low = 0 , mid = 0 , high = arr.size()-1;
-        if(high == 0) return arr;
         while(mid<=high){
             if(arr[mid]%2==0){
                 swap(arr[low] , arr[mid]);
