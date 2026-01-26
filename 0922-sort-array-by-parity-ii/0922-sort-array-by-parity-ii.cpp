@@ -6,7 +6,8 @@ public:
     }
     vector<int> sortArrayByParityII(vector<int>& arr) {
         int eptr = 0 , optr = 1 ; 
-        while(optr < arr.size() && eptr < arr.size()){
+        int size = arr.size();
+        while(optr < size && eptr < size){
             bool isOddRight = !isEven(arr[optr]);
             bool isEvenRight = isEven(arr[eptr]);
             
