@@ -15,6 +15,8 @@ public:
 
             if(!isOddRight && !isEvenRight){
                 swap(arr[eptr] , arr[optr]);
+                eptr+=2 ; 
+                optr+=2;
             }
         }
         return arr;
