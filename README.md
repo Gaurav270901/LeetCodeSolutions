@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0792-binary-search) |
 | [0905-sort-array-by-parity](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0905-sort-array-by-parity) |
 | [0907-koko-eating-bananas](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0907-koko-eating-bananas) |
+| [0922-sort-array-by-parity-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0922-sort-array-by-parity-ii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0283-move-zeroes) |
 | [0905-sort-array-by-parity](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0905-sort-array-by-parity) |
 | [0908-middle-of-the-linked-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0908-middle-of-the-linked-list) |
+| [0922-sort-array-by-parity-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0922-sort-array-by-parity-ii) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Divide and Conquer
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0268-missing-number) |
 | [0905-sort-array-by-parity](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0905-sort-array-by-parity) |
+| [0922-sort-array-by-parity-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0922-sort-array-by-parity-ii) |
 ## Design
 |  |
 | ------- |
