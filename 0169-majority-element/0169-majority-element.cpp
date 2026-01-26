@@ -1,25 +1,20 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
+        int maxCount = 0 , majorElement ;
 
-        //store <elements , freqency > in map and you wil get the ans :)
-        unordered_map < int , int > map ; 
-        int output = 0 ; 
-        int majFactor = nums.size()/2;
+        for(int i = 0 ; i < nums.size() ; i++ )
+        {
+            if(maxCount == 0 ) majorElement = nums[i];
 
-        for(int i = 0 ; i < nums.size() ; i++){
-            if(map.count(nums[i])){
-                map[nums[i]]++;
-            }else {
-                map[nums[i]]=1 ;
+            if(nums[i] == majorElement){
+                maxCount++;
+            }
+            else{
+                maxCount--;
             }
         }
 
-        for(int num : nums){
-            if(map[num] > majFactor && map[num] > output){
-                output = num;
-            }
-        }
-        return output ; 
+        return majorElement ;
     }
 };
