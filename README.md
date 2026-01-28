@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2047-find-a-peak-element-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2047-find-a-peak-element-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2724-convert-an-array-into-a-2d-array-with-conditions](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2724-convert-an-array-into-a-2d-array-with-conditions) |
+| [3026-maximum-good-subarray-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/3026-maximum-good-subarray-sum) |
 ## Hash Table
 |  |
 | ------- |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2724-convert-an-array-into-a-2d-array-with-conditions](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2724-convert-an-array-into-a-2d-array-with-conditions) |
+| [3026-maximum-good-subarray-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/3026-maximum-good-subarray-sum) |
 ## Matrix
 |  |
 | ------- |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0560-subarray-sum-equals-k) |
+| [3026-maximum-good-subarray-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/3026-maximum-good-subarray-sum) |
 ## Counting
 |  |
 | ------- |
