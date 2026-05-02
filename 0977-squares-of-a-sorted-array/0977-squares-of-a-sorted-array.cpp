@@ -7,15 +7,14 @@ public:
             int lowSqr = arr[low]*arr[low];
             int highSqr = arr[high]*arr[high];
 
-            if(highSqr > lowSqr){
-                ans[ptr] = highSqr ; 
+            if(highSqr >= lowSqr){
+                ans[ptr--] = highSqr ; 
                 high--;
-                ptr--;
-                continue;
             }
-            ans[ptr] = lowSqr ;
-            low++;
-            ptr--;
+            else{
+                ans[ptr--] = lowSqr ;
+                low++;
+            }
         }
         return ans;
     }
