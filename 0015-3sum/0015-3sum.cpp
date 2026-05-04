@@ -1,56 +1,42 @@
 class Solution {
 public:
-    // vector<vector<int>> threeSum(vector<int>& arr) {
-    //     vector<vector<int>> ans ; 
-    //     sort(arr.begin() , arr.end());
-
-    //     for(int i = 0 ; i < arr.size() ; i++){
-    //         if(i > 0 && arr[i]==arr[i-1]) continue ; 
-
-    //         int left = i+1 ; 
-    //         int right = arr.size()-1;
-
-    //         while(left < right){
-    //             int sum = arr[i]+arr[left]+arr[right] ; 
-    //             if(sum==0){
-    //                 ans.push_back({arr[i],arr[left],arr[right]});
-                
-    //                 while(left < right && arr[left]==arr[left+1]) left++;
-    //                 while(left < right && arr[right]==arr[right-1]) right--;
-
-    //                 left++;
-    //                 right--;
-    //             }
-    //             else if(sum < 0) left++ ;
-    //             else right --;
-    //         }
-    //     }
-    //     return ans ; 
-    // }
-
-     vector<vector<int>> threeSum(vector<int>& arr) {
-        vector<vector<int>> ans ; 
+    vector<vector<int>> threeSum(vector<int>& arr) {
         sort(arr.begin() , arr.end());
-
-        for(int i = 0 ; i < arr.size() ; i++){
-            if(i > 0 && arr[i]==arr[i-1]) continue ; 
-
-            int left = i+1 ; 
-            int right = arr.size()-1;
-
-            while(left < right){
-                int sum = arr[i]+arr[left]+arr[right] ; 
-                if(sum > 0) right-- ; 
-                else if (sum < 0 ) left++;
-                else {
-                    ans.push_back({arr[i],arr[left],arr[right]});
-                    left++;
-
-                    while(left < right && arr[left]==arr[left-1]) left++;
-                }
-            
+        int n = arr.size();
+        vector<vector<int>> ans ; 
+        for(int i = 0 ; i < n-2 ; i++){
+            if(i < n && i != 0 && arr[i] == arr[i-1]){
+                continue;
             }
+            int low = i+1  , high = n-1 , target = -1*arr[i];
+            while(low < high){
+                int sum = arr[low]+arr[high];
+                if(sum==target){
+                    vector<int> triplet ;
+                    triplet.push_back(arr[i]);
+                    triplet.push_back(arr[low]);
+                    triplet.push_back(arr[high]);
+                    ans.push_back(triplet);
+                    low++;
+                    high--;
+
+                    while(low < n && arr[low] == arr[low-1])
+                        low++;
+                    
+                    while(high >= 0 && arr[high] == arr[high+1])
+                        high--;
+                }
+                else if(sum > target){
+                    high--;
+                }
+                else{
+                    low++;
+                }
+
+            }
+
         }
-        return ans ; 
+
+        return ans;
     }
 };
