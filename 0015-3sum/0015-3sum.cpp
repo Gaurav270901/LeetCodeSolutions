@@ -5,7 +5,7 @@ public:
         int n = arr.size();
         vector<vector<int>> ans ; 
         for(int i = 0 ; i < n-2 ; i++){
-            if(i < n && i != 0 && arr[i] == arr[i-1]){
+            if(i > 0 && arr[i] == arr[i-1]){
                 continue;
             }
             int low = i+1  , high = n-1 , target = -1*arr[i];
@@ -20,10 +20,10 @@ public:
                     low++;
                     high--;
 
-                    while(low < n && arr[low] == arr[low-1])
+                    while(low < high && arr[low] == arr[low-1])
                         low++;
                     
-                    while(high >= 0 && arr[high] == arr[high+1])
+                    while(high >= low && arr[high] == arr[high+1])
                         high--;
                 }
                 else if(sum > target){
