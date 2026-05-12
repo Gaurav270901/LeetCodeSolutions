@@ -2,7 +2,7 @@ class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& arr) {
         int low = 0 , high = 0 ,result = INT_MAX , n = arr.size() ;
-        long long sum = 0 ;
+        int sum = 0 ;
         while(high < n){
             sum += arr[high];
             while(sum >= target && low <= high){
