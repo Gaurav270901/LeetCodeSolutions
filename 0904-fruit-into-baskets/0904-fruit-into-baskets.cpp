@@ -15,13 +15,11 @@ public:
                 low++;
             }
 
-            if(map.size() == 2){
-                int len = high - low + 1 ;
-                ans = max(len , ans);
-            }
+           ans = max(ans, high - low + 1);  // always update
+
             high++;
         }
 
-        return (map.size() < 2) ? n : ans;
+        return  ans;
     }
 };
