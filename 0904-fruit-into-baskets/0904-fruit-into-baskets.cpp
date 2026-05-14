@@ -4,7 +4,6 @@ public:
         
         unordered_map<int,int> map ; 
         int high = 0 , low = 0 , n = fruits.size() , ans = INT_MIN;
-        if(n == 1) return n ;
         while(high < n){
             map[fruits[high]]++;
 
