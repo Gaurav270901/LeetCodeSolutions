@@ -2,16 +2,16 @@ class Solution {
 public:
     int characterReplacement(string s, int k) {
         int low = 0 , high = 0 , n = s.size() , ans = INT_MIN ; 
-        vector<int> map(256,0);
+        vector<int> map(26,0);
 
         while(high < n){
-            map[s[high]]++;
+            map[s[high]-'A']++;
             int len = high - low + 1;
             int maxFreq = findMaxFreq(map);
             int diff = len - maxFreq ;
 
             while(diff > k){
-                map[s[low]]--;
+                map[s[low]-'A']--;
                 low++;
                 len = high - low + 1;
                 maxFreq = findMaxFreq(map);
@@ -27,7 +27,7 @@ public:
 
     int findMaxFreq(vector<int> &arr){
         int count = INT_MIN ; 
-        for(int i = 0 ; i < 256 ; i++){
+        for(int i = 0 ; i < 26 ; i++){
             count = max(count , arr[i]);
         }
         return count ;
