@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0073-set-matrix-zeroes) |
+| [0076-minimum-window-substring](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0142-linked-list-cycle-ii) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0022-generate-parentheses) |
+| [0076-minimum-window-substring](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0151-reverse-words-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0904-fruit-into-baskets) |
