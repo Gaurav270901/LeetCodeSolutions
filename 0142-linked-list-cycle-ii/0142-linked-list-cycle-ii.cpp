@@ -9,33 +9,21 @@
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        // ListNode *slow = head , *fast = head;
-        // while(fast != nullptr && fast->next != nullptr){
-        //     fast = fast->next->next ;
-        //     slow = slow->next;
-        //     if(fast == slow) {
-        //     slow = head ; 
-        //         while(slow != fast){
-        //             slow = slow->next ;
-        //             fast = fast->next ;
-        //         }
-        //         return slow ;
-        //     }
-        // }
-        // return nullptr;
-
-        //solving it my hashmap
-
-        unordered_map<ListNode* , int> mp ;
-
-        ListNode *ptr = head ;
-        while(ptr!=nullptr){
-            if(mp.count(ptr)!=0) return ptr ;
-            else {
-                mp[ptr] = 1;
+        ListNode *slow = head , *fast = head ;
+        bool isCyclePresent = false;
+        while(fast!= NULL && fast->next != NULL){
+            slow = slow->next ; 
+            fast=fast->next->next ; 
+            if(slow == fast){
+                slow = head ; 
+                while(slow != fast){
+                    slow = slow->next ; 
+                    fast = fast->next ; 
+                }
+                isCyclePresent = true ;
+                break;
             }
-            ptr = ptr->next;
         }
-        return nullptr;
+        return (isCyclePresent)?slow : NULL ;
     }
 };
