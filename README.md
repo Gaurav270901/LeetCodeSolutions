@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0410-split-array-largest-sum) |
+| [0457-circular-array-loop](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0457-circular-array-loop) |
 | [0485-max-consecutive-ones](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0457-circular-array-loop](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0457-circular-array-loop) |
 | [0560-subarray-sum-equals-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0904-fruit-into-baskets) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0287-find-the-duplicate-number) |
+| [0457-circular-array-loop](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0457-circular-array-loop) |
 | [0905-sort-array-by-parity](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0905-sort-array-by-parity) |
 | [0908-middle-of-the-linked-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0908-middle-of-the-linked-list) |
 | [0922-sort-array-by-parity-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0922-sort-array-by-parity-ii) |
