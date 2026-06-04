@@ -1,24 +1,19 @@
 class Solution {
+    //maxEnd : max product finising at index i 
+    //mindEnd : min product finishing at index i
 public:
-    int maxProduct(vector<int>& arr) {
-        //WE WILL TAKE TWO POINTERS ONE WILL POINT TO START AND OTHER WILL POINT TO END OF ARRAY
-        //THEN WE WILL START STORING SUM FROM START TO END AND SUM FROM END TO START 
-        //AND WE WILL STORE MAXIMUM SUM IN ANS VARIABLE
-        //WHENEVER WE GET 0 IN ARRAY WE WILL RESET THE SUM AS 1 
-        //AT THE END WE WILL GET HIGHEST SUM
+    int maxProduct(vector<int>& nums) {
+        if(nums.size() < 2) return nums[0];
+        int n = nums.size() , maxEnd = nums[0] , minEnd = nums[0] , ans = nums[0] ; 
 
+        for(int i = 1 ; i < n ; i++){
+            int currentMin = minEnd * nums[i];
+            int currentMax = maxEnd * nums[i];
+            maxEnd = max(nums[i] , max(currentMin , currentMax));
+            minEnd = min(nums[i] , min(currentMin , currentMax));
 
-        int startProd = 1 , endProd = 1 , n = arr.size() , ans = INT_MIN; 
-        for(int i = 0 ; i < n ; i++){
-            if(startProd==0) startProd = 1 ; 
-            if(endProd==0) endProd = 1 ; 
-
-            startProd*= arr[i];
-            endProd*=arr[n-i-1];
-            ans = max(ans , max(startProd , endProd));
-
+            ans = max(ans , max(maxEnd , minEnd));
         }
-
-        return ans ; 
+        return ans;
     }
 };
