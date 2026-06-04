@@ -1,6 +1,8 @@
 class Solution {
     //maxEnd : max product finising at index i 
     //mindEnd : min product finishing at index i
+
+    //at each index we will find this two pointer and then we will which one to pic , if minEnd is negative and i is also negative at that time there is possibilty at it can create max positive product ,
 public:
     int maxProduct(vector<int>& nums) {
         if(nums.size() < 2) return nums[0];
