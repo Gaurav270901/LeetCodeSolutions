@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0410-split-array-largest-sum) |
 | [1013-fibonacci-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1013-fibonacci-number) |
+| [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 ## Stack
 |  |
 | ------- |
