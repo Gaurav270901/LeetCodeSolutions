@@ -8,11 +8,11 @@ public:
         int ans = arr[0] , noDelete = arr[0] , oneDelete = INT_MIN  , n = arr.size() ;
         if(n < 2) return ans ; 
         for(int i = 1 ; i < n ; i++){
-            int prevNodelete = noDelete ; 
-            int prevOnedelete = oneDelete ; 
-            if(prevOnedelete == INT_MIN) prevOnedelete = 0;
+            int prevNoDelete = noDelete ; 
+            int prevOneDelete = oneDelete ; 
+            if(prevOneDelete == INT_MIN) prevOneDelete = 0; // for first element prevOnedelete will be 0 
             noDelete = max(noDelete+arr[i] , arr[i]);
-            oneDelete = max(prevNodelete , prevOnedelete + arr[i]);
+            oneDelete = max(prevNoDelete , prevOneDelete + arr[i]);
             ans = max(ans , max(noDelete , oneDelete));
         }
         return ans;
