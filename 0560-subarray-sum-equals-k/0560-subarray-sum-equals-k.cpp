@@ -1,24 +1,19 @@
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
-        unordered_map<int, int> prefixMap;
-    prefixMap[0] = 1;  // Base case: to handle subarrays that start at index 0
+        map<int,int> mp ;
+        mp[0] = 1 ; 
+        int sum = 0 , ans = 0 ;
+        
+        for(int i = 0 ; i < nums.size() ; i++){
+            sum+=nums[i];   
+            if(mp.find(sum-k) != mp.end()){
+                ans += mp[sum - k];
+            }
 
-    int count = 0;
-    int prefixSum = 0;
-
-    for (int num : nums) {
-        prefixSum += num;
-
-        // Check if there's a prefixSum that we can subtract to get k
-        if (prefixMap.find(prefixSum - k) != prefixMap.end()) {
-            count += prefixMap[prefixSum - k];
+            mp[sum]++;
         }
-
-        // Store/update current prefixSum count
-        prefixMap[prefixSum]++;
-    }
-
-    return count;
+        return ans;
+        
     }
 };
