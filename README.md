@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0907-koko-eating-bananas) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0922-sort-array-by-parity-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0922-sort-array-by-parity-ii) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0457-circular-array-loop](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0457-circular-array-loop) |
 | [0560-subarray-sum-equals-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0904-fruit-into-baskets) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2724-convert-an-array-into-a-2d-array-with-conditions](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2724-convert-an-array-into-a-2d-array-with-conditions) |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0724-find-pivot-index) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1004-max-consecutive-ones-iii) |
 | [3026-maximum-good-subarray-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/3026-maximum-good-subarray-sum) |
 ## Counting
