@@ -7,10 +7,7 @@ public:
 
         for(int i = 0 ; i < nums.size() ; i++){
             sum+=nums[i];   
-            if(mp[sum-k] != 0){
-                ans += mp[sum - k];
-            }
-
+            ans += mp[sum - k];
             mp[sum]++;
         }
         return ans;
