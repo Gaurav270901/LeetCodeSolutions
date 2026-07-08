@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0232-implement-queue-using-stacks](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0232-implement-queue-using-stacks) |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0125-valid-palindrome) |
