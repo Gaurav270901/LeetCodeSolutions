@@ -7,24 +7,18 @@ public:
                 st.push(s[i]);
                 continue ;
             }
-            if(s[i] == ')' && !st.empty() && st.top() == '(')
-                {
-                    st.pop();
-                    continue;
-                }
-            if(s[i] == '}' && !st.empty() && st.top() == '{')
-                {
-                    st.pop();
-                    continue;
-                }
-            
-            if(s[i] == ']' && !st.empty() && st.top() == '[')
-                {
-                    st.pop();
-                    continue;
-                }
 
-                return false;
+            if(st.empty())
+                return false ;
+
+            char top = st.top();
+            
+           if ((s[i] == ')' && top != '(') ||
+               (s[i] == ']' && top != '[') ||
+               (s[i] == '}' && top != '{'))
+                    return false;
+
+            st.pop();
         }
 
         if(st.empty()) 
