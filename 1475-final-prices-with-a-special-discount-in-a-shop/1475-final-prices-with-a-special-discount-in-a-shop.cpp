@@ -1,5 +1,7 @@
 class Solution {
 public:
+// as we have to find first right element which is less than or equal to current element 
+//its obviout that its question of next smaller element
     vector<int> finalPrices(vector<int>& prices) {
         vector<int> ans = prices ; 
         stack<int> st   ;
