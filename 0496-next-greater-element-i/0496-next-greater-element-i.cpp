@@ -16,6 +16,10 @@ public:
 
         for(int i = 0 ; i < m ; i++){
             while(!st.empty() && nums2[st.top()] < nums2[i]){
+                // st.top() store index from nums2
+                // indexValue = nums2[st.top()]  will give us value of top element
+                // mp[indexValue] will give us index of top value for nums1
+                // ans[mp[indexValue]] will put value in index for this
                 ans[mp[nums2[st.top()]]] = nums2[i];
                 st.pop();
             }
