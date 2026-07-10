@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0724-find-pivot-index) |
+| [0739-daily-temperatures](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0792-binary-search) |
 | [0904-fruit-into-baskets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0904-fruit-into-baskets) |
 | [0905-sort-array-by-parity](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0905-sort-array-by-parity) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0503-next-greater-element-ii) |
+| [0739-daily-temperatures](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0739-daily-temperatures) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
 ## Tree
@@ -389,4 +391,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0503-next-greater-element-ii) |
+| [0739-daily-temperatures](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
