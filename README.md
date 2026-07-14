@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0232-implement-queue-using-stacks](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0739-daily-temperatures) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0151-reverse-words-in-a-string) |
+| [0402-remove-k-digits](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
@@ -348,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0410-split-array-largest-sum) |
 ## Trie
 |  |
@@ -396,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0402-remove-k-digits](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0739-daily-temperatures) |
