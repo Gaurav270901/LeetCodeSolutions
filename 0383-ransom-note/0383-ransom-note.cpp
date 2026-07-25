@@ -1,5 +1,6 @@
 class Solution {
 public:
+//this can be done by considering vector as a map as well 
     bool canConstruct(string ransomNote, string magazine) {
         unordered_map<char , int >  noteFreq ; 
         unordered_map<char , int >  magFreq ;
