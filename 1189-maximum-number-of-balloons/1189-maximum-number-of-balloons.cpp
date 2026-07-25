@@ -8,31 +8,29 @@ class Solution {
     //so store the frequency of required and current in two maps then find the minimun ratio of frequency and that will be the ans;
 public:
     int maxNumberOfBalloons(string text) {
-        unordered_map<char,int> srcMap ;
-        unordered_map<char,int> txtMap ; 
-        int maxBalloons = INT_MAX;
+        unordered_map<char,int> reqFreq ;
+        unordered_map<char,int> textFreq ; 
+        int maxBalloonCount = INT_MAX; // its the answer but will store the minimun freq / req ration in it
 
-        srcMap['b'] = 1;
-        srcMap['a'] = 1;
-        srcMap['l'] = 2;
-        srcMap['o'] = 2;
-        srcMap['n'] = 1;
+        reqFreq['b'] = 1;
+        reqFreq['a'] = 1;
+        reqFreq['l'] = 2;
+        reqFreq['o'] = 2;
+        reqFreq['n'] = 1;
 
         for(auto i : text){
-            txtMap[i]++;
+            textFreq[i]++;
         }
 
-        for(auto mp : srcMap){
+        for(auto mp : reqFreq){
             char letter = mp.first;
-            int freq = mp.second;
-            int minLetter = txtMap[letter]/freq ;
-            if( minLetter < maxBalloons){
-                maxBalloons = minLetter ;
-            }
+            int requiredCount = mp.second;
+            int balloonsFromCurrentLetter = textFreq[letter]/requiredCount ;
+            maxBalloonCount =  min(maxBalloonCount, balloonsFromCurrentLetter);
         }
 
-        if(maxBalloons == INT_MAX) return 0 ;
-        return maxBalloons ;
+        if(maxBalloonCount == INT_MAX) return 0 ;
+        return maxBalloonCount ;
         
     }
 };
