@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0904-fruit-into-baskets) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0974-subarray-sums-divisible-by-k) |
+| [1189-maximum-number-of-balloons](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1189-maximum-number-of-balloons) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2724-convert-an-array-into-a-2d-array-with-conditions](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2724-convert-an-array-into-a-2d-array-with-conditions) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
+| [1189-maximum-number-of-balloons](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1189-maximum-number-of-balloons) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Math
 |  |
@@ -326,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0229-majority-element-ii) |
 | [0387-first-unique-character-in-a-string](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0387-first-unique-character-in-a-string) |
+| [1189-maximum-number-of-balloons](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1189-maximum-number-of-balloons) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Simulation
