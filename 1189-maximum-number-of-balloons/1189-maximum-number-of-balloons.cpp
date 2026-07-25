@@ -1,5 +1,6 @@
 class Solution {
     //the maximun number of balloons words is depend on the frequecy of minumum number of charater present in text 
+    // The maximum number of "balloon" words that can be formed  is limited by the character with the smallest  (available frequency / required frequency) ratio.
     //ex. bbbbbbbbbaaaaaaaaaalllllllllllooooooooooonsssssssssssss
     //only one balloon can be make from this becasue only one n is present
     //ex.bbbbbbbbaaaaaaaaalllooooooooooooonnnnnnnnnnnnnnn
