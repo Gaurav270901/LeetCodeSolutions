@@ -1,10 +1,18 @@
 class Solution {
-    // store the count of chars in map then for each count get the total even charater you can get from the freq add that in result and at the end of the result add one in it as in palindrome we can keep one odd character in the middle , but we also need to track if there is any odd freq present or not then and only then we will add in in our ans 
+// Count the frequency of each character.
+// For every character, we can use all its occurrences if the frequency is even.
+//
+// If the frequency is odd, we can use (frequency - 1) characters
+// to keep the palindrome symmetric and reserve one character.
+//
+// If at least one character has an odd frequency, we can place
+// exactly one odd character at the center of the palindrome,
+// so add 1 to the final length.
 public:
     int longestPalindrome(string s) {
         unordered_map<char,int> freq ;
-        int ans = 0 ;
-        bool isOddFreqPresent = false ;
+        int palindromeLength  = 0 ;
+        bool hasOddFreq = false ;
 
         for(auto i : s){
             freq[i]++;
@@ -13,14 +21,14 @@ public:
         for(auto i : freq){
             int count = i.second ;
             if(count % 2 != 0 ){
-                ans += (count-1);
-                isOddFreqPresent = true ;
+                palindromeLength += (count-1);
+                hasOddFreq = true ;
             }
             else{
-                ans += count ;
+                palindromeLength += count ;
             }
         }
 
-        return (isOddFreqPresent == true) ? ans + 1 : ans ;
+        return hasOddFreq  ? palindromeLength  + 1 : palindromeLength  ;
     }
 };
