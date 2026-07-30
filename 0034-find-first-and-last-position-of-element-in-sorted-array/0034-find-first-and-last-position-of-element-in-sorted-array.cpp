@@ -1,49 +1,49 @@
 class Solution {
 public:
 
-    int first_occ(vector<int> arr , int x){
-        int low = 0 ; 
-        int high = arr.size()-1 ; 
-        int ans = -1 ;
+    int firstOccurance(vector<int>& nums , int target){
+        int size = nums.size();
+        int low = 0 , high = size -1 , ans = -1 ;
         while(low <= high){
-            int mid = (low+high)/2 ; 
-            if(arr[mid]==x){
-                ans = mid ; 
-                high = mid- 1 ; 
+            int mid = (low+high)/2;
+            int value = nums[mid];
+
+            if(value == target){
+                high = mid -1 ;
+                ans = mid;
             }
-            else if(arr[mid] < x){
-                low = low+1 ; 
-            }
-            else {
-                high = high- 1; 
-            }
+            else if(value > target)
+                high = mid-1 ;
+            else 
+                low = mid + 1;
         }
-        return ans ; 
+        return ans ;
     }
 
-     int last_occ(vector<int> arr , int x){
-        int low = 0 ; 
-        int high = arr.size()-1 ; 
-        int ans = -1 ;
+     int lastOccurance(vector<int>& nums , int target){
+        int size = nums.size();
+        int low = 0 , high = size -1 , ans = -1 ;
         while(low <= high){
-            int mid = (low+high)/2 ; 
-            if(arr[mid]==x){
-                ans = mid ; 
-                low = mid + 1 ; 
+            int mid = (low+high)/2;
+            int value = nums[mid];
+
+            if(value == target){
+                low = mid +1 ;
+                ans = mid;
             }
-            else if(arr[mid] < x){
-                low = low+1 ; 
-            }
-            else {
-                high = high- 1; 
-            }
+            else if(value > target)
+                high = mid-1 ;
+            else 
+                low = mid + 1;
         }
-        return ans ; 
+        return ans ;
     }
     vector<int> searchRange(vector<int>& nums, int target) {
         vector<int> ans ; 
-        ans.push_back(first_occ(nums , target));
-        ans.push_back(last_occ(nums , target));
-        return ans ; 
+        ans.push_back(firstOccurance(nums , target));
+        ans.push_back(lastOccurance(nums , target));
+
+        return ans;
+
     }
 };
