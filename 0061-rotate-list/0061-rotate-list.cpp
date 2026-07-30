@@ -4,34 +4,32 @@ public:
         if (!head || !head->next || k == 0)
             return head;
 
-        int size = findLength(head);
+        ListNode *last = head ; 
+        int size = 1 ; 
+        while(last->next){
+            size++;
+            last = last->next;
+        }
 
         k %= size;
         if (k == 0)
             return head;
 
-        // Step 1: Reverse entire list
-        head = reverseList(head, size);
+        int count = 1 ; 
+        ListNode *t = head ; 
+        while(t){
+            if(count == (size-k)){
+                break;
+            }
+            count++;
+            t = t->next ;
+        }
 
-        // Step 2: Reverse first k nodes
-        ListNode* curr = head;
-        for (int i = 1; i < k; i++)
-            curr = curr->next;
+        last->next = head ;
+        ListNode *result = t->next ;
+        t->next = NULL;       
 
-        ListNode* rem = curr->next;
-        curr->next = nullptr;
-
-        ListNode* firstPart = reverseList(head, k);
-        ListNode* secondPart = reverseList(rem, size - k);
-
-        // Step 3: Connect both parts
-        ListNode* tail = firstPart;
-        while (tail->next)
-            tail = tail->next;
-
-        tail->next = secondPart;
-
-        return firstPart;
+        return result;
     }
 
     int findLength(ListNode* head) {
