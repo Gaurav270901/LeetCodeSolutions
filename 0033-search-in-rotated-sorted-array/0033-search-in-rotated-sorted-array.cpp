@@ -15,11 +15,11 @@ public:
                 low = mid + 1 ; 
             }
             else{
-                if(arr[0] <= target){
-                    high = mid - 1; 
+                if(arr[0] > target){
+                    low  = mid + 1; 
                 }
                 else
-                    low = mid + 1 ;
+                    high = mid - 1 ;
             }
           }
           else{
@@ -27,11 +27,11 @@ public:
                 high = mid - 1 ;
             }
             else{
-                if(arr[n-1] >= target){
-                    low = mid + 1 ;
+                if(arr[n-1] < target){
+                    high = mid - 1 ;
                 }
                 else
-                    high = mid - 1;
+                    low = mid + 1;
             }
           }          
           
