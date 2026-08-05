@@ -25,9 +25,7 @@ public:
     long long calculateHour(vector<int>& arr , int hour){
         long long ans = 0 ;
         for(auto i : arr){
-            if(i <= hour) ans++ ;
-            else
-                ans += (i + hour - 1) / hour;
+           ans += ceil((double)i / (double)hour);
         }
         return ans;
     }
