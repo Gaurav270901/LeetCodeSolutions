@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0792-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0875-koko-eating-bananas](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0904-fruit-into-baskets) |
 | [0905-sort-array-by-parity](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0905-sort-array-by-parity) |
 | [0907-koko-eating-bananas](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0907-koko-eating-bananas) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0792-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0875-koko-eating-bananas](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0907-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
