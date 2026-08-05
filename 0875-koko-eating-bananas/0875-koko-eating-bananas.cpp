@@ -1,12 +1,13 @@
 class Solution {
 public:
     int minEatingSpeed(vector<int>& piles, int h) {
-        int maxStock = 0 ; 
+        int maxPile = 0 ; 
         for(int i = 0 ; i < piles.size(); i++){
-            maxStock = max(maxStock , piles[i]);
+            maxPile = max(maxPile , piles[i]);
         }
+        if(h == piles.size()) return maxPile;
 
-        int low = 1 , high = maxStock , ans = 0 ;
+        int low = 1 , high = maxPile , ans = 0 ;
 
         while(low <= high){
             int guess = (low + high)/2 ;
