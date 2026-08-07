@@ -2,24 +2,23 @@ class Solution {
 public:
 
     bool isCapacityValid(vector<int>& weights , int days , int guess){
-        int requiredDays = 0 ; 
+        int currentday = 1  ; 
         int requiredWeight = 0 ;
         for(auto weight : weights){
-            if(guess < weight) return false;
             if(weight + requiredWeight > guess){
-                requiredDays++;
-                requiredWeight = 0 ;
+                currentday+=1;
+                requiredWeight = weight ;
             }
-            requiredWeight+=weight ;
+            else 
+                requiredWeight+=weight ;
         }
-        if(requiredWeight <= guess) requiredDays++;
         
-        return requiredDays <= days ;
+        return currentday <= days ;
     }
     int shipWithinDays(vector<int>& weights, int days) {
-        int minWeight = INT_MAX , maxWeight = 1 ; 
+        int minWeight = INT_MIN , maxWeight = 1 ; 
         for(auto weight : weights){
-            minWeight = min(weight , minWeight);
+            minWeight = max(weight , minWeight);
             maxWeight += weight ;
         }
 
