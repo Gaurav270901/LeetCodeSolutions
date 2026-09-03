@@ -6,11 +6,11 @@ public:
         while(row >= 0 && col < m){
             int element = arr[row][col];
             if(element <= guess){
-                count+=(row+1);
+                count+=(row+1); // if any element is found less than equal to guess it means that all element from the same column above it will be less than or equal to guess hence add all of then in ans and then skip the column
                 col++;
             }
             else 
-                row--;
+                row--; //if first element of row is > guess it means next all element from that row will be greater than guess as rows are in increasing order hence skip the row
         }
         return count >= k;
         
