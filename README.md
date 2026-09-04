@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0268-missing-number) |
+| [0275-h-index-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0275-h-index-ii) |
 | [0283-move-zeroes](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0268-missing-number) |
+| [0275-h-index-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0410-split-array-largest-sum) |
