@@ -1,29 +1,34 @@
 class Solution {
 public:
 //optimization to previous solution 
-//as this array is sorted 
-//we dont need to iterate through array again and again to check for citation count 
-//0 1 3 5 6 
-//we guess one index suppose 1 arr[1] = 2 all element after 2 will be greater than 2 , this is obvious 
-//and hece number of papers where minimum citations were 2 = arr.size()-i=5-1 = 4 (1 3 5 6)
-//if papers > citations , increase citation 
-//other wise decrease citation
+// Since the array is sorted, if we are at index mid,
+// then all papers from mid to n-1 have citations >= citations[mid].
+//
+// papers = n - mid
+//
+// Compare:
+// citations[mid]  vs  papers
+//
+// citations[mid] == papers -> valid H-index found
+// citations[mid] < papers  -> need a larger citation count, move right
+// citations[mid]
     int hIndex(vector<int>& citations) {
         int n = citations.size();
         int low = 0 ; 
         int high = n-1 ;
+        int ans = 0 ;
         while(low <= high){
             int guess = (low + high)/2 ;
             int citationsCount = citations[guess] ;
 
             int paperCount = n - guess ;
-            if(citationsCount == paperCount) return paperCount ;
-            if(citationsCount > paperCount){
+            if(citationsCount >= paperCount){
+                ans = paperCount ;
                 high = guess-1 ;
             }
             else low = guess+1 ;
         }
-        return n-low ;
+        return ans;
         
     }
 };
