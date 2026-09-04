@@ -9,6 +9,7 @@ public:
 //then that can be answer and we will try to maxmimize this value 
 //if we found citations > books , means books are less then we try to lower our guess 
 //if we found citations < books means we need to raise our guess
+//one more mistake take lowest citation as 0 , if there is only one number in array and we have to guess then we need range we cant take lowest and highest by one number so use 0 to highest as range
     int guessCount(vector<int>& citations , int guess){
         int count = 0 ; 
         for(auto citation : citations){
