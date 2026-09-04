@@ -1,55 +1,39 @@
 class Solution {
 public:
+//for this problem we will guess one number which will act as a minimum sum then we try to add elements from array within that guess 
+//and keep count of subarray if we can fit it in guess then we will minimize the guess ,otherwise increase the guess
+//as its need to be subarray we need to take low as first element because if we take low = 2 and first element is 7 it cant fit in subarray where guess is 2 
+//max should be sum of all elements from the array
 
-    int check (int mid, vector <int> & nums) {
-
-        int cnt = 0;
-        int curr = 0;
-        for (int i = 0; i < nums.size(); i++) {
-
-            if (curr + nums[i] < mid) {
-                curr += nums[i];
+    int isGuessValid(vector<int>& nums, int guess){
+        int subArrayCount = 1 ; 
+        int sum = 0 ; 
+        for(auto num : nums){
+            if(sum + num > guess){
+                subArrayCount++ ; 
+                sum = num ;
             }
-            else {
-                cnt++;
-                curr = nums[i];
-            }
+            else 
+                sum += num ;
         }
-        cnt++;
-
-        // cout << mid << "  " << cnt << endl;
-        return cnt;
+        return subArrayCount;
     }
-
     int splitArray(vector<int>& nums, int k) {
-
-        int sum = 0;
-        int maxi = INT_MIN;
-
-        for (auto i : nums) {
-            sum += i;
-            maxi = max (maxi,i);
-        }
-
-        if (k == 1) return sum;
-        if (k == nums.size()) return maxi;
-
-        int low = maxi;
-        int high = sum;
-        int ans = maxi;
-
-        while (low <= high) {
-
-            int mid = low + (high - low) / 2;
-
-            if (check(mid,nums) > k ){
-                ans = mid;
-                low = mid + 1;
+        int low = *max_element(nums.begin(),nums.end());
+        int high = 0 ; 
+        int ans = -1;
+        for(auto num : nums) high += num ; 
+        while(low <= high){
+            int guess = (low+high)/2 ;
+            int countSubArray = isGuessValid(nums, guess) ;
+            if(countSubArray <= k){
+                ans = guess ; 
+                high = guess-1 ;
             }
-            else {
-                high = mid - 1;
-            }
+            else
+                low = guess + 1 ;
         }
-        return ans;
+        return ans ;
+
     }
 };
