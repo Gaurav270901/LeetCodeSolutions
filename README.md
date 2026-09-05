@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1552-magnetic-force-between-two-balls](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1552-magnetic-force-between-two-balls) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1646-kth-missing-positive-number) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-sort-array-by-parity](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0905-sort-array-by-parity) |
 | [0922-sort-array-by-parity-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0922-sort-array-by-parity-ii) |
 | [0977-squares-of-a-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0977-squares-of-a-sorted-array) |
+| [1552-magnetic-force-between-two-balls](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1552-magnetic-force-between-two-balls) |
 ## Design
 |  |
 | ------- |
@@ -322,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [1552-magnetic-force-between-two-balls](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1552-magnetic-force-between-two-balls) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1646-kth-missing-positive-number) |
 | [2047-find-a-peak-element-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2047-find-a-peak-element-ii) |
