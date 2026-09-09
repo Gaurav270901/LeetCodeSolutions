@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0907-koko-eating-bananas) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0922-sort-array-by-parity-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0922-sort-array-by-parity-ii) |
+| [0973-k-closest-points-to-origin](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0973-k-closest-points-to-origin) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0977-squares-of-a-sorted-array) |
 | [0986-interval-list-intersections](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0986-interval-list-intersections) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0493-reverse-pairs) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0918-maximum-sum-circular-subarray) |
+| [0973-k-closest-points-to-origin](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0973-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0692-top-k-frequent-words) |
 | [0905-sort-array-by-parity](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0905-sort-array-by-parity) |
 | [0922-sort-array-by-parity-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0922-sort-array-by-parity-ii) |
+| [0973-k-closest-points-to-origin](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0973-k-closest-points-to-origin) |
 | [0977-squares-of-a-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1552-magnetic-force-between-two-balls) |
 ## Design
@@ -286,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0268-missing-number) |
+| [0973-k-closest-points-to-origin](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0973-k-closest-points-to-origin) |
 | [1013-fibonacci-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1013-fibonacci-number) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2050-count-good-numbers](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/2050-count-good-numbers) |
@@ -471,14 +475,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0692-top-k-frequent-words](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0692-top-k-frequent-words) |
+| [0973-k-closest-points-to-origin](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0973-k-closest-points-to-origin) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0973-k-closest-points-to-origin) |
 ## Bucket Sort
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0692-top-k-frequent-words) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0973-k-closest-points-to-origin) |
+## K-D Tree
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
