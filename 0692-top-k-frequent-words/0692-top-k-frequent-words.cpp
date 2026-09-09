@@ -25,19 +25,11 @@ public:
             int freq = i.second;
 
             pair<int,string> curr = {freq , element};
+            heap.push(curr);
 
-           if (heap.size() < k) {
-                heap.push(curr);
-            }
-            else {
-                auto top = heap.top();
 
-                if (curr.first > top.first ||
-                (curr.first == top.first &&
-                    curr.second < top.second)) {
-                    heap.pop();
-                    heap.push(curr);
-                }
+           if (heap.size() > k) {
+                heap.pop();
             }
         }
 
