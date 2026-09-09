@@ -1,7 +1,17 @@
 class Solution {
 public:
 
-//if we use min heap in this example then we need to find which is the smallest element in the group of k element and whenever we encounter larger element in our traversal we will add that in our heap while maintaining the size of k , hence popping top element
+// Use a min-heap of size k.
+//
+// Why min-heap?
+// The kth largest element is the smallest element among
+// the k largest elements in the array.
+//
+// By continuously removing the smallest element whenever
+// the heap size exceeds k, we ensure that only the k
+// largest elements remain in the heap.
+//
+// Hence, heap.top() gives the kth largest element.
     int findKthLargest(vector<int>& nums, int k) {
         priority_queue<int,vector<int>,greater<int>> pq ;
         int n = nums.size();
