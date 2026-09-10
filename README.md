@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0525-contiguous-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0560-subarray-sum-equals-k) |
+| [0658-find-k-closest-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0692-top-k-frequent-words) |
 | [0724-find-pivot-index](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0739-daily-temperatures) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0457-circular-array-loop](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0457-circular-array-loop) |
+| [0658-find-k-closest-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0905-sort-array-by-parity](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0905-sort-array-by-parity) |
 | [0908-middle-of-the-linked-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0908-middle-of-the-linked-list) |
 | [0922-sort-array-by-parity-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0922-sort-array-by-parity-ii) |
@@ -241,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0658-find-k-closest-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0692-top-k-frequent-words) |
 | [0905-sort-array-by-parity](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0905-sort-array-by-parity) |
 | [0922-sort-array-by-parity-ii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0922-sort-array-by-parity-ii) |
@@ -331,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
+| [0658-find-k-closest-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0792-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0875-koko-eating-bananas) |
@@ -444,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0658-find-k-closest-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0904-fruit-into-baskets](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/1004-max-consecutive-ones-iii) |
 ## Monotonic Queue
@@ -474,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0658-find-k-closest-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0692-top-k-frequent-words) |
 | [0973-k-closest-points-to-origin](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0973-k-closest-points-to-origin) |
 ## Quickselect
