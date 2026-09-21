@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0023-merge-k-sorted-lists](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Merge Sort
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0023-merge-k-sorted-lists) |
 | [0493-reverse-pairs](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0493-reverse-pairs) |
 ## Ordered Set
 |  |
@@ -429,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0023-merge-k-sorted-lists](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0023-merge-k-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0061-rotate-list) |
@@ -484,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -511,4 +515,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0973-k-closest-points-to-origin) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Gaurav270901/LeetCodeSolutions/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
